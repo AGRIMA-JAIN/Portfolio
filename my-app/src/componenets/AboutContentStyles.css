@@ -1,0 +1,142 @@
+/* .about{
+  width:100%;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.about .left{
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  max-width: 350px;
+}
+
+.about .left p{
+  margin: 1.1rem 0;
+
+}
+
+.about .right{
+  max-width: 700px;
+}
+.about h1{
+  color: white;
+  font-size: 1.2rem;
+  
+}
+
+ul {
+  list-style-type: disc; 
+  padding-left: 1.5rem; 
+  align-items: flex-start;
+}
+
+li {
+  color: white; 
+  font-size: 1rem; 
+  margin-bottom: 0.5rem; 
+}
+
+li::marker {
+  color: white; 
+}
+
+/* .right .img-container{
+  display: grid;
+  grid-template-columns:repeat(12,1fr) ;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.right .img{
+  max-width: 90%;
+  border: 1px solid #333;
+}
+
+.right .top{
+  grid-column: 1/ span 7;
+  grid-row: 1;
+ z-index: 5;
+ padding-top: 20%;
+}
+
+.right .bottom{
+  grid-column: 4/ -3;
+  grid-row: 1;
+ z-index: 5;
+ 
+} */ 
+
+.about {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.about .left {
+  text-align: center; /* Center text for the heading only */
+  margin: auto;
+  padding: 1rem;
+  max-width: 350px;
+}
+
+.about .left h1 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.about .left ul {
+  list-style-type: disc; /* Set bullet style */
+  padding-left: 1.5rem; /* Add padding for indentation */
+  text-align: left; /* Align the list items to the left */
+  margin-top: 1rem; /* Optional: add some space above the list */
+}
+
+.about .left li {
+  color: white; /* Set font color to white */
+  font-size: 1rem; /* Adjust font size as needed */
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+li::marker {
+  color: white; /* Set bullet color to white */
+}
+
+.right {
+  max-width: 700px;
+}
+
+.right .img-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.right .img {
+  max-width: 90%;
+  border: 1px solid #333;
+}
+
+.right .top {
+  grid-column: 1 / span 7;
+  grid-row: 1;
+  z-index: 5;
+  padding-top: 20%;
+}
+
+.right .bottom {
+  grid-column: 4 / -3;
+  grid-row: 1;
+  z-index: 5;
+}
